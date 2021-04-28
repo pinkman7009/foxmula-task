@@ -28,3 +28,12 @@ function debounce(func, timeout = 10) {
 
 **Screenshots**
 <img src='screenshots/task1.png'/>
+
+## Task 2
+
+**Problem Assigned** : To create an accordion which contains list items.
+
+**Solution Implemented** : The accordion has been created by using the Accordion component provided by Bootstrap and also modifying a few classes with CSS3 to make it look like the design.
+
+**Screenshots**
+<img src='screenshots/task2.png'/>

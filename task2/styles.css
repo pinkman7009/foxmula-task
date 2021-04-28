@@ -5,7 +5,75 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+}
+
+body {
+  background: #afafaf;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-behavior: auto;
+}
+
+.card-header {
+  background: #f7f8fa !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.card-header h2 {
+  font-size: 1.2rem;
+}
+
+.card {
+  box-shadow: 6px 4px 36px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.accordion-button {
+  transform: rotate(270deg);
+  width: 50px;
+  background: transparent !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.list-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.list-style li {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion {
+    width: 100%;
+  }
 }
