@@ -1,6 +1,6 @@
-# Foxmula Internship Second Round
+# Foxmula Second Round
 
-The repository contains the code files for the tasks assigned for the second round of the Foxmula Internship.
+The repository contains the code files for the tasks assigned for the second round.
 
 ## Task 1
 
